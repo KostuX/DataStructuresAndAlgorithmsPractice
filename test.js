@@ -1,9 +1,4 @@
-let nemo = ["nemo"];
-function findNemo(testArray) {
-  for (let i = 0; i < testArray.length; i++) {
-    if (testArray[i] === "nemo") {
-      console.log("Found nemo");
-    }
-  }
-}
-findNemo(nemo);
+let arr = [1, 2, 3, 4, 5];
+
+function print(items) {}
+print(arr);
