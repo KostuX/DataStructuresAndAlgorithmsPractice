@@ -1,4 +1,4 @@
-const arr1 = [1, 5, 8, 6, 7, 12, 4, 5, 4, 6];
+const arr1 = [2, 5, 5, 2, 7, 12, 4, 5, 4, 6];
 
 // O(n`2)
 function findDuplicate1(arr) {
