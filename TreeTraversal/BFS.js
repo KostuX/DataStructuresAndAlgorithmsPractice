@@ -85,14 +85,11 @@ class BinarySearchTree {
 
 let tree = new BinarySearchTree();
 
-tree.insert(9);
-tree.insert(4);
-tree.insert(6);
-tree.insert(20);
-tree.insert(170);
-tree.insert(15);
-tree.insert(1);
-//console.log(tree.lookup(9));
+[9,4,6,20,170,15,1].map((node, i)=>{
+  tree.insert(node)
+})
+
+console.log(tree.lookup(9));
 console.log(tree.breadthFirstSearchRecursive([tree.root], []));
 
 //           __[9]__
